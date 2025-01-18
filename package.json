@@ -1,0 +1,16 @@
+{
+  "name": "cdmxbitdevs-website",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "bun run src/build.ts",
+    "dev": "bun --hot run src/dev.ts"
+  },
+  "dependencies": {
+    "feed": "^4.2.2",
+    "marked": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/marked": "^5.0.2",
+    "bun-types": "latest"
+  }
+}
