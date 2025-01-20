@@ -2,14 +2,7 @@ import { SiteConfig } from "./types";
 
 // Get the base URL from Vercel environment or fallback
 const getBaseUrl = () => {
-  if (process.env.NODE_ENV === "production") {
-    return "https://www.cdmxbitdevs.org";
-  }
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-  // Fallback for local development
-  return "http://localhost:3000";
+  return "https://www.cdmxbitdevs.org";
 };
 
 export const config: SiteConfig = {
