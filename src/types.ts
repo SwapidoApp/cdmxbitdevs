@@ -11,6 +11,7 @@ export interface SiteConfig {
   title: string;
   tagline: string;
   description: string;
+  baseUrl: string;
   menu: {
     name: string;
     url: string;

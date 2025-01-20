@@ -9,6 +9,15 @@ export function baseTemplate(content: string, title: string) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${title} | ${config.title}</title>
+  
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="${title} | ${config.title}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="${config.baseUrl}/cdmxbitdevs.png">
+  <meta property="og:url" content="${config.baseUrl}">
+  <meta property="og:description" content="Seminarios socráticos de desarrolladores Bitcoin en CDMX">
+  <meta property="og:site_name" content="${config.title}">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
@@ -42,7 +51,7 @@ export function baseTemplate(content: string, title: string) {
   <div class="Footer">
     <div class="Footer-inner">
       <div class="Footer-source">
-        <a href="https://github.com/cdmxbitdevs/website" target="_blank" rel="noopener nofollow">
+        <a href="https://github.com/austinbitdevs/austinbitdevs.com" target="_blank" rel="noopener nofollow">
           Código fuente disponible en Github
         </a>
       </div>
