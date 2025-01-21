@@ -74,23 +74,16 @@ function formatDate(dateStr: string): string {
 }
 
 export async function build() {
-  // First clean up any existing directories
-  await Promise.all([
-    rm(OUTPUT_DIR, { recursive: true, force: true }).catch(() => {}),
-  ]);
+  // Remove existing dist and create a clean one
+  await rm(OUTPUT_DIR, { recursive: true, force: true });
+  await mkdir(OUTPUT_DIR, { recursive: true });
 
-  // Create fresh directories with a small delay to ensure cleanup is complete
-  await new Promise((resolve) => setTimeout(resolve, 100));
-
-  await Promise.all([
-    mkdir(OUTPUT_DIR, { recursive: true }),
-    mkdir(PUBLIC_DIR, { recursive: true }),
-  ]);
-
-  // Copy public files
-  await cp(PUBLIC_DIR, OUTPUT_DIR, { recursive: true }).catch(() => {
-    console.log("No public directory found");
-  });
+  // Copy over public if it exists
+  await cp(PUBLIC_DIR, OUTPUT_DIR, { recursive: true, force: true }).catch(
+    () => {
+      console.log("No public directory found. Skipping copy step.");
+    }
+  );
 
   // Read and parse all posts
   const files = await readdir(POSTS_DIR);
@@ -188,6 +181,8 @@ export async function build() {
 
   // Write feed to file
   await writeFile(join(OUTPUT_DIR, "feed.xml"), feed.rss2());
+
+  console.log("Build script completed successfully.");
 }
 
 // Only run build if this is the main module
