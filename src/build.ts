@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile, writeFile, cp, rm } from "fs/promises";
+import { mkdir, readdir, readFile, writeFile, cp } from "fs/promises";
 import { join } from "path";
 import { marked } from "marked";
 import { Post } from "./types";
@@ -74,16 +74,13 @@ function formatDate(dateStr: string): string {
 }
 
 export async function build() {
-  // Remove existing dist and create a clean one
-  await rm(OUTPUT_DIR, { recursive: true, force: true });
+  // Create output directory
   await mkdir(OUTPUT_DIR, { recursive: true });
 
-  // Copy over public if it exists
-  await cp(PUBLIC_DIR, OUTPUT_DIR, { recursive: true, force: true }).catch(
-    () => {
-      console.log("No public directory found. Skipping copy step.");
-    }
-  );
+  // Copy public files
+  await cp(PUBLIC_DIR, OUTPUT_DIR, { recursive: true }).catch(() => {
+    console.log("No public directory found");
+  });
 
   // Read and parse all posts
   const files = await readdir(POSTS_DIR);
@@ -181,8 +178,6 @@ export async function build() {
 
   // Write feed to file
   await writeFile(join(OUTPUT_DIR, "feed.xml"), feed.rss2());
-
-  console.log("Build script completed successfully.");
 }
 
 // Only run build if this is the main module
