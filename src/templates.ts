@@ -51,9 +51,6 @@ export function baseTemplate(content: string, title: string) {
   <div class="Footer">
     <div class="Footer-inner">
       <div class="Footer-source">
-        <a href="https://github.com/austinbitdevs/austinbitdevs.com" target="_blank" rel="noopener nofollow">
-          Código fuente disponible en Github
-        </a>
       </div>
       <div class="Footer-rss">
         <a href="/feed.xml">Canal RSS</a>

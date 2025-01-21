@@ -105,7 +105,7 @@ export async function build() {
   <p class="Home-about">${config.description}</p>
   
   <div class="Home-posts">
-    <h2 class="Home-posts-title">Próximos Eventos y Eventos Recientes</h2>
+    <h2 class="Home-posts-title">Próximos y Recientes Eventos</h2>
     ${posts
       .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
       .slice(0, 7)
