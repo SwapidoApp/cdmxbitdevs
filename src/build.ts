@@ -10,6 +10,9 @@ const POSTS_DIR = "posts";
 const OUTPUT_DIR = "dist";
 const PUBLIC_DIR = "assets";
 
+console.log("Copying from:", join(process.cwd(), PUBLIC_DIR));
+console.log("Copying to:", join(process.cwd(), OUTPUT_DIR));
+
 async function parsePost(filename: string): Promise<Post> {
   const content = await readFile(join(POSTS_DIR, filename), "utf-8");
 
@@ -78,8 +81,11 @@ export async function build() {
   await mkdir(OUTPUT_DIR, { recursive: true });
 
   // Copy public files
-  await cp(PUBLIC_DIR, OUTPUT_DIR, { recursive: true }).catch(() => {
-    console.log("No public directory found");
+  await cp(join(process.cwd(), PUBLIC_DIR), join(process.cwd(), OUTPUT_DIR), {
+    recursive: true,
+    force: true,
+  }).catch(() => {
+    console.log("No assets directory found at runtime.");
   });
 
   // Read and parse all posts
