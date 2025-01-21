@@ -1,7 +1,7 @@
 import { watch } from "fs";
 import { build } from "./build";
 
-const WATCH_DIRS = ["src", "posts", "public"];
+const WATCH_DIRS = ["src", "posts", "assets"];
 const DEFAULT_PORT = 3000;
 
 async function findAvailablePort(startPort: number): Promise<number> {
