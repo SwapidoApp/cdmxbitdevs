@@ -8,7 +8,7 @@ import { Feed } from "feed";
 
 const POSTS_DIR = "posts";
 const OUTPUT_DIR = "dist";
-const PUBLIC_DIR = "public";
+const PUBLIC_DIR = "assets";
 
 async function parsePost(filename: string): Promise<Post> {
   const content = await readFile(join(POSTS_DIR, filename), "utf-8");
