@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile, writeFile, cp, access } from "fs/promises";
+import { mkdir, readdir, readFile, writeFile, cp, rm } from "fs/promises";
 import { join } from "path";
 import { marked } from "marked";
 import { Post } from "./types";
@@ -74,15 +74,18 @@ function formatDate(dateStr: string): string {
 }
 
 export async function build() {
-  // Create output directory
-  await mkdir(OUTPUT_DIR, { recursive: true });
+  // First clean up any existing directories
+  await Promise.all([
+    rm(OUTPUT_DIR, { recursive: true, force: true }).catch(() => {}),
+  ]);
 
-  // Check if public directory exists before trying to create it
-  try {
-    await access(PUBLIC_DIR);
-  } catch {
-    await mkdir(PUBLIC_DIR, { recursive: true });
-  }
+  // Create fresh directories with a small delay to ensure cleanup is complete
+  await new Promise((resolve) => setTimeout(resolve, 100));
+
+  await Promise.all([
+    mkdir(OUTPUT_DIR, { recursive: true }),
+    mkdir(PUBLIC_DIR, { recursive: true }),
+  ]);
 
   // Copy public files
   await cp(PUBLIC_DIR, OUTPUT_DIR, { recursive: true }).catch(() => {
