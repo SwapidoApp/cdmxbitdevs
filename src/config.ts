@@ -8,12 +8,12 @@ const getBaseUrl = () => {
 export const config: SiteConfig = {
   title: "CDMX Bitcoin Developers",
   tagline:
-    "CDMX Bitcoin Developers es una comunidad dedicada a la investigación y desarrollo de Bitcoin",
+    "CDMX BitDevs es una comunidad dedicada a la investigación y desarrollo de Bitcoin",
   description:
-    "CDMX Bitcoin Developer (BitDevs) es un seminario socrático dedicado a la discusión del desarrollo e investigación continua de Bitcoin.",
+    "CDMX BitDevs es una comunidad para aquellos interesados en discutir y participar en la investigación y desarrollo de Bitcoin y protocolos relacionados en la Ciudad de México.",
   baseUrl: getBaseUrl(),
   menu: [
     { name: "Eventos", url: "/events" },
-    { name: "Meetup", url: "https://lu.ma/casadesatoshi", external: true },
+    { name: "Luma (Meetup)", url: "https://lu.ma/casadesatoshi", external: true },
   ],
 };
