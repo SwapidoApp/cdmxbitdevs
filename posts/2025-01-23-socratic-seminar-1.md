@@ -7,9 +7,13 @@ meetup: https://lu.ma/3qxgdgy5
 
 # Anuncios
 
-- Respeta la privacidad de los demás
-- Se fomenta la interacción y las preguntas
-- [Reglas de Chatham House](https://www.chathamhouse.org/about-us/chatham-house-rule)
+- Bienvenidos al primer seminario socrático oficial de CDMX Bitcoin Devs en la Casa de Satoshi.
+- El 26 de noviembre de 2024, [la Casa de Satoshi anunció](https://x.com/LaCasaDeSatoshi/status/1861502750393049191) el comienzo de eventos sobre asuntos técnicos de Bitcoin. El primer evento tuvo lugar dos días después. Así nació la idea de organizar seminarios socráticos mensuales de CDMX BitDevs.
+- Les pedimos que respeten la integridad y la privacidad de los demás. No se tolerarán las faltas de respeto.
+- Se fomenta la interacción y las preguntas; por favor, levanten la mano durante una discusión y les daremos la palabra.
+- Es muy importante mantener el tema sobre el bitcoin y sus tecnologías relacionadas. No se permite la promoción de otras criptomonedas.
+- Se seguirán las reglas de [Chatham House](https://www.chathamhouse.org/about-us/chatham-house-rule).
+
 
 # Temas
 
