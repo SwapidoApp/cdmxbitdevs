@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile, writeFile, cp } from "fs/promises";
+import { mkdir, readdir, readFile, writeFile, cp, access } from "fs/promises";
 import { join } from "path";
 import { marked } from "marked";
 import { Post } from "./types";
@@ -77,8 +77,12 @@ export async function build() {
   // Create output directory
   await mkdir(OUTPUT_DIR, { recursive: true });
 
-  // Ensure public directory exists before copying
-  await mkdir(PUBLIC_DIR, { recursive: true });
+  // Check if public directory exists before trying to create it
+  try {
+    await access(PUBLIC_DIR);
+  } catch {
+    await mkdir(PUBLIC_DIR, { recursive: true });
+  }
 
   // Copy public files
   await cp(PUBLIC_DIR, OUTPUT_DIR, { recursive: true }).catch(() => {
