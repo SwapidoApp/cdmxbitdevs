@@ -40,8 +40,6 @@ meetup: https://lu.ma/3qxgdgy5
 
 - [Resumen de 2024 por Bitcoin Optech](https://bitcoinops.org/en/newsletters/2024/12/20/)
 - [Nuevas vulnerabilidades sobre los protocolos de coinjoin sin custodia, pero centralizados, como Wasabi/Ginger y Whirlpool/Samourai](https://groups.google.com/g/bitcoindev/c/CbfbEGozG7c/m/w2B-RRdUCQAJ)
-- [Código Abierto en Unchained](https://unchained.com/blog/unchained-2024-open-source/)
-- [Ataques de desanonimización en coinjoins centralizados](https://groups.google.com/g/bitcoindev/c/CbfbEGozG7c/m/w2B-RRdUCQAJ?pli=1)
 - Discrete Log Equality Proofs (DLEQs) con Silent Payments
   - [BIP374: DLEQs](https://bitcoinops.org/en/newsletters/2025/01/03/#bips-1689)
   - [BIP375: Pagar a una dirección Silent Payments con una cartera PSBT de manera segura](https://bitcoinops.org/en/newsletters/2025/01/17/#bips-1687)
