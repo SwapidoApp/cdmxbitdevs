@@ -14,6 +14,10 @@ export const config: SiteConfig = {
   baseUrl: getBaseUrl(),
   menu: [
     { name: "Eventos", url: "/events" },
-    { name: "Luma (Meetup)", url: "https://lu.ma/casadesatoshi", external: true },
+    {
+      name: "Luma (Meetup)",
+      url: "https://lu.ma/lacasadesatoshi",
+      external: true,
+    },
   ],
 };
