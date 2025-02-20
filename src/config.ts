@@ -13,7 +13,7 @@ export const config: SiteConfig = {
     "CDMX BitDevs es una comunidad para aquellos interesados en discutir y participar en la investigación y desarrollo de Bitcoin y protocolos relacionados en la Ciudad de México.",
   baseUrl: getBaseUrl(),
   menu: [
-    { name: "Eventos", url: "/events" },
+    { name: "Eventos", url: "/events.html" },
     {
       name: "Luma (Meetup)",
       url: "https://lu.ma/lacasadesatoshi",
