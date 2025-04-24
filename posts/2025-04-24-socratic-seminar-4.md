@@ -8,10 +8,10 @@ meetup: https://lu.ma/pending
 # Anuncios
 
 - Bienvenidos al cuarto seminario socrático oficial de CDMX Bitcoin Devs en la Casa de Satoshi. El anfitrión es [Gustavo Flores Echaiz](https://x.com/gustavojfe).
-- Respeten la integridad y privacidad de los asistentes. No se tolerarán faltas de respeto. Se aplicarán las reglas de [Chatham House](https://www.chathamhouse.org/about-us/chatham-house-rule).
-- Fomentamos la interacción y preguntas; levanten la mano durante la discusión para tomar la palabra.
-- Mantengan el enfoque en Bitcoin y sus tecnologías relacionadas. No se permite la promoción de otras criptomonedas.
-- ¡Acompáñennos en nuestra próxima sesión y sigan las actualizaciones en [nuestro grupo de Telegram](https://t.me/CDMXBitcoinDevs)!
+- Nuestros patrocinadores son [Wallet of Satoshi](https://www.walletofsatoshi.com/), la billetera de Bitcoin Lightning más simple del mundo, disponible en Android y iOS, y [Librería de Satoshi](https://libreriadesatoshi.com/), una escuela técnica que ofrece formación técnica en español para hacer del desarrollo de Bitcoin una carrera accesible en América Latina y el Caribe.
+- Les pedimos que respeten la integridad y la privacidad de los demás. No se tolerarán las faltas de respeto. Se seguirán las reglas de [Chatham House](https://www.chathamhouse.org/about-us/chatham-house-rule).
+- Se fomenta la interacción y las preguntas; por favor, levanten la mano durante una discusión y les daremos la palabra.
+- Es muy importante mantener el tema sobre el bitcoin y sus tecnologías relacionadas. No se permite la promoción de otras criptomonedas.
 
 # Noticias de Mercado y Legales
 
@@ -38,21 +38,20 @@ meetup: https://lu.ma/pending
 - [Eclair implementa "package relay" para cierres forzados](https://bitcoinops.org/en/newsletters/2025/04/04/#eclair-2963)
 - [Fedimint integra soporte para BOLT12](https://github.com/fedimint/fedimint/pull/7054)
 - [Bitcoin Core agrega campos PSBT para MuSig2, habilitando soporte para carteras MuSig2](https://github.com/bitcoin/bitcoin/pull/31247)
-- [Citrea actualiza la activación de BitVM en su nueva red de pruebas](https://www.blog.citrea.xyz/tangerine-upgrade-bitvm-activation-on-clementine/)
 - [Prototipos de ARK con soporte para activos Taproot](https://x.com/ArkLabsHQ/status/1915435703204520276)
 
 ## Nuevos Lanzamientos
 
-- [Phoenix regresa a EE.UU.](https://x.com/PhoenixWallet/status/1909652018207109567)
-- [Braiins libera el código de su placa de control para minería](https://x.com/BraiinsMining/status/1904601550212731287)
-- [Comparación de 18 carteras Lightning en 43 características, por Gustavo Flores y patrocinado por Swapido](https://sovereigntools.com/)
-- [Aplicación web que transmite en tiempo real mensajes de Stratum de un grupo de minería a una tabla para su análisis.](https://stratum.work)
+- [Bitcoin Core v0.29.0](https://bitcoinops.org/en/newsletters/2025/04/18/#bitcoin-core-29-0)
 - [BDK v1.2.0](https://github.com/bitcoindevkit/bdk/releases/tag/wallet-1.2.0)
 - [LDK v0.1.2](https://github.com/lightningdevkit/rust-lightning/releases/tag/v0.1.2)
 - [BTCPay Server v2.1.0](https://bitcoinops.org/en/newsletters/2025/04/11/#btcpay-server-2-1-0)
 - [LNBits v1.0.0](https://github.com/lnbits/lnbits/releases/tag/v1.0.0)
 - [Mempool v3.2.0](https://github.com/mempool/mempool/releases/tag/v3.2.0)
-- [Bitcoin Core v0.29.0](https://bitcoinops.org/en/newsletters/2025/04/18/#bitcoin-core-29-0)
+- [Phoenix regresa a EE.UU.](https://x.com/PhoenixWallet/status/1909652018207109567)
+- [Braiins libera el código de su placa de control para minería](https://x.com/BraiinsMining/status/1904601550212731287)
+- [Comparación de 18 carteras Lightning en 43 características, por Gustavo Flores y patrocinado por Swapido](https://sovereigntools.com/)
+- [Aplicación web que transmite en tiempo real mensajes de Stratum de un grupo de minería a una tabla para su análisis.](https://stratum.work)
 
 ## Argumentos a Favor de los Covenants
 
