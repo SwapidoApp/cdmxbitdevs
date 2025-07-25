@@ -1,54 +1,65 @@
 ---
 layout: post
 type: socratic
-title: "Seminario Socrático 6"
-meetup: https://lu.ma/gmrkdbwn
+title: "Seminario Socrático 7"
+meetup: https://lu.ma/i6p0tpfz
 ---
 
 # Anuncios
 
-- Bienvenidos al sexto seminario socrático oficial de CDMX Bitcoin Devs en la Casa de Satoshi. El anfitrión es [Gustavo Flores Echaiz](https://x.com/gustavojfe).  
-- Nuestros patrocinadores son [Wallet of Satoshi](https://www.walletofsatoshi.com/) y [Librería de Satoshi](https://libreriadesatoshi.com/).  
-- Les pedimos que respeten la integridad y la privacidad de los demás. Se aplican las reglas de [Chatham House](https://www.chathamhouse.org/about-us/chatham-house-rule).
-- Se fomenta la interacción y las preguntas; por favor, levanten la mano para intervenir.  
-- Mantener el enfoque en Bitcoin y tecnologías afines; no se permite la promoción de otras criptomonedas.  
-## Temas
+-
+- Bienvenidos al **séptimo** seminario socrático oficial de **CDMX Bitcoin Devs** en la **Casa de Satoshi**. El anfitrión es [Gustavo Flores Echaiz](https://x.com/gustavojfe).  
+- Patrocinadores: [Wallet of Satoshi](https://www.walletofsatoshi.com/) y [Librería de Satoshi](https://libreriadesatoshi.com/).  
+- Respeten la integridad y la privacidad de los demás. Se aplican las reglas de [Chatham House](https://www.chathamhouse.org/about-us/chatham-house-rule).  
+- Se fomenta la interacción y las preguntas; levanten la mano para intervenir.  
+- Mantener el enfoque en **Bitcoin y tecnologías afines**; no se permite la promoción de otras criptomonedas.  
 
-### Desarrollo y Tecnología
-- [Escalando pagos de minería no custodial con CTV](https://delvingbitcoin.org/t/scaling-noncustodial-mining-payouts-with-ctv/1753)
-- [Biblioteca en Rust (descriptor-encrypt): Cifra cualquier descriptor para que solo usuarios autorizados puedan gastar](https://delvingbitcoin.org/t/rust-descriptor-encrypt-encrypt-any-descriptor-such-that-only-authorized-spenders-can-decrypt/1750)
-- [Witnessless Sync: Cómo los nodos podados pueden omitir testigos para bloques “assume-valid”](https://gist.github.com/JoseSK999/df0a2a014c7d9b626df1e2b19ccc7fb1)
-- [Dust Expiry: Limpieza del set UTXO de spam](https://delvingbitcoin.org/t/dust-expiry-clean-the-utxo-set-from-spam/1707)
-- [Bitcoin y computación cuántica: Estado actual y direcciones futuras (Chaincode)](https://chaincode.com/bitcoin-post-quantum.pdf)
-- [Bitcoin Core aleja permanentemente a la mayoría de su base de usuarios al eliminar los límites en las salidas OP_RETURN en la política predeterminada del mempool](https://github.com/bitcoin/bitcoin/pull/32406)
+# Temas
 
-### Lightning y Wallets
-- [Phoenix Wallet 2.6.1 ahora permite enviar y recibir vía NFC](https://x.com/PhoenixWallet/status/1930986564743573784?t=PZQVfJw5JL-bpSyMW1lVnA&s=19)
-- [LND v0.19.0-beta: Cierre cooperativo RBF, mejor confiabilidad en pagos y más](https://www.nobsbitcoin.com/lnd-v0-19-0-beta/)
-- [Sparrow Wallet v2.2.1: Vista de bloques recientes, mejoras en cámara, Tor y P2A](https://www.nobsbitcoin.com/sparrow-wallet-v2-2-1/)
-- [Cake Wallet v4.28: Soporte para Payjoin v2](https://www.nobsbitcoin.com/cake-wallet-v4-28/)
-- [Bitcoin Safe v1.3.0: Gráfico interactivo, CPFP y soporte para Testnet4](https://www.nobsbitcoin.com/bitcoin-safe-v1-3-0/)
-
-### Finanzas Tradicionales y Regulación
-- [JPMorgan aceptará ETFs de Bitcoin como colateral para préstamos](https://www.bloomberg.com/news/articles/2025-06-04/jpmorgan-plans-to-offer-clients-financing-against-crypto-etfs)
-- [Terminales de Square aceptarán Lightning](https://x.com/BitcoinScoresby/status/1927403656510337308)
-- [Suiza autoriza el intercambio automático de datos fiscales cripto con 74 países](https://cointelegraph.com/news/switzerland-automatic-crypto-data-exchange-74-partner-countries)
-- [Rumania instala su primer cajero automático de Bitcoin en oficinas postales](https://cointelegraph.com/news/romania-post-service-install-first-bitcoin-atm)
-- [Bitcoin “no reclamado” en California podría ser confiscado](https://decrypt.co/323787/unclaimed-bitcoin-california-seized-theres-catch)
-- [Grupos pro-cripto piden desestimar el caso contra el mixer Samourai](https://decrypt.co/324098/crypto-advocacy-groups-urge-dismissal-case-bitcoin-mixer-samourai)
-
-### Mercados y Tendencias
-- [¿Shock de oferta de Bitcoin? Porcentaje en exchanges se acerca a niveles de 2018](https://cointelegraph.com/news/bitcoin-supply-shock-percentage-of-btc-on-exchanges-nears-2018-levels)
-- [¿Deberíamos retransmitir transacciones con comisiones menores a 1 sat/vB?](https://stacker.news/items/998229)
-- [Boltz Pro lanza versión final: intercambios no custodiales para acumular sats](https://blog.boltz.exchange/p/boltz-pro-launches-out-of-beta-stack?utm_campaign=post&utm_medium=web)
-
-### Seguridad y Derechos
-- [Los desarrolladores de Bitcoin están en riesgo](https://www.tftc.io/bitcoin-developers-are-at-risk/)
-- [Mineros de Bitcoin demandados en EE.UU. por patentes de criptografía](https://cointelegraph.com/news/bitcoin-patent-lawsuit-targets-marathon-core-scientific)
+### Noticias de Mercado
+- **Bitcoin** alcanza un nuevo máximo histórico de **USD 123 000** — [Reuters](https://www.reuters.com/business/bitcoin-crosses-120000-record-high-2025-07-14/)  
+- Crece la adopción de Bitcoin en **Bolivia** y otros países con alta inflacion — [HRF Financial Freedom Report #79](https://hrf.org/latest/hrfs-weekly-financial-freedom-report-79/)  
+- **Deutsche Bank** planea lanzar servicio de custodia Bitcoin en 2026 — [Bloomberg](https://www.bloomberg.com/news/articles/2025-07-01/deutsche-bank-aims-to-launch-crypto-custody-service-in-2026)  
+- El **Genius Act** se convierte en ley en EE. UU. — [Solidus Labs](https://www.soliduslabs.com/post/genius-act-signed-into-law)  
+- **Charles Schwab** habilita trading spot de Bitcoin — [Cointelegraph ES](https://es.cointelegraph.com/news/charles-schwab-launches-bitcoin-ether-spot-trading)  
+- **JPMorgan** estudia ofrecer préstamos respaldados por bitcoin — [Reuters](https://www.reuters.com/business/finance/jpmorgan-considers-offering-loans-backed-by-clients-cryptocurrency-holdings-ft-2025-07-22/)  
+- Regulador de EE. UU. ordena a **Fannie Mae** y **Freddie Mac** considerar bitcoin en evaluaciones de préstamos — [Reuters](https://www.reuters.com/sustainability/boards-policy-regulation/regulator-orders-fannie-freddie-consider-crypto-holdings-loan-assessments-2025-06-25/)  
+- **BBVA** lanza servicio minorista de trading y custodia de Bitcoin en España — [BBVA](https://www.bbva.com/en/es/innovation/bbva-launches-its-bitcoin-and-ether-trading-and-custody-service-for-all-retail-customers-in-spain/)  
+- Análisis de los **BTC** retenidos por el **U.S. Marshal Service** — [The Rage](https://www.therage.co/btc-held-by-the-us-marshal-service/)  
 
 ### Productos y Lanzamientos
-- [Blockstream lanza una app no custodial para comprar Bitcoin](https://blog.blockstream.com/introducing-the-blockstream-app-the-bitcoin-wallet-that-grows-with-you-2/)
-- [Bitlayer se asocia con Antpool, F2Pool y SpiderPool para promover BitVM](https://www.coindesk.com/business/2025/05/27/bitlayer-joins-forces-with-antpool-f2pool-and-spiderpool-to-supercharge-bitcoin-defi/)
+- **Wallet of Satoshi** + **Spark**: experiencia Lightning autocustodia — [Bitcoin Magazine](https://bitcoinmagazine.com/news/wallet-of-satoshi-partners-with-spark-to-offer-self-custodial-bitcoin-lightning-experience)
+- **Bitcoin Core 28.2** — [Bitcoin Core](https://bitcoincore.org/es/releases/28.2/)  
+- **Core Lightning v25.05** — [Bitcoin Ops](https://bitcoinops.org/en/newsletters/2025/06/20/#core-lightning-25-05)  
+- **FROSTSnap**: dispositivo de firmas FROST habilita transacciones multifirma de bajo costo en hardware air‑gapped — [Bitcoin Ops 2025‑07‑18](https://bitcoinops.org/en/newsletters/2025/07/18/#frost-signing-device-available) · [Anuncio](https://x.com/frostsnaptech/status/1939519321862291621)  
+- **RGB v0.12 Consensus** primera versión “estable” de smart‑contracts client‑side — [RGB.tech](https://rgb.tech/blog/release-v0-12-consensus/)  
+- **Ashigaru Whirlpool & Terminal v1.0.0** nuevo coinjoin— [No BS Bitcoin](https://www.nobsbitcoin.com/ashigaru-whirlpool-and-terminal-v1-0-0/)  
+- **BitVM3:** avances hacia contratos verificables fuera de cadena — [Blockspace Media](https://blockspace.media/insight/why-you-might-want-to-pay-attention-to-bitvm-again/)  
+- **Bitchat** peer‑to‑peer chat usando inscripciones 1‑sat para señalizar metadatos por Jack Dorsey — [Sitio Web](https://bitchat.free/)  
 
-### Opinión
-- [CEO bancario sugiere “acumular balas, no Bitcoin”](https://www.zerohedge.com/political/big-bank-boss-urges-america-stockpile-bullets-not-bitcoin)
+
+### Desarrollo y Tecnología
+- Carta abierta sobre **CTV** y **CSFS** firmado por mas de 70 desarolladores— [Bitcoin Ops 2025‑07‑04](https://bitcoinops.org/en/newsletters/2025/07/04/#open-letter-about-ctv-and-csfs)
+- **rust‑libsecp256k1** Completa la implementación de **MuSig2** — [Bitcoin Ops 2025‑06‑20](https://bitcoinops.org/en/newsletters/2025/06/20/#rust-libsecp256k1-798)  
+- Nuevo formato que reduce ~40 % el tamaño de carteras multifirma y miniscript en backups— [Bitcoin Ops 2025‑07‑11](https://bitcoinops.org/en/newsletters/2025/07/11/#compressed-descriptors)
+- **Breez SDK** incorpora BOLT 12 y BIP 353, facilitando cobros sin revelar la identidad del comercio — [Bitcoin Ops Newsletter 2025‑06‑20](https://bitcoinops.org/en/newsletters/2025/06/20/#breez-sdk-adds-bolt12-and-bip353)  
+- **LDK** avanza con la implementacion de pagos async, permitiendo que un comercio cobre estando offline — [Bitcoin Ops 2025‑07‑04](https://bitcoinops.org/en/newsletters/2025/07/04/#ldk-3618) · [Bitcoin Ops 2025‑07‑18](https://bitcoinops.org/en/newsletters/2025/07/18/#ldk-3628)  
+- **Bitcoin Core** avanza la implementacion de Cluster Mempool— [Bitcoin Ops 2025‑07‑18](https://bitcoinops.org/en/newsletters/2025/07/18/#bitcoin-core-31553)  
+- **Eclair** completa la implementacion de HTLC endorsement — [Bitcoin Ops 2025‑07‑18](https://bitcoinops.org/en/newsletters/2025/07/18/#eclair-2716)
+- **Breez SDK** incorpora BOLT 12 y BIP 353 — [Bitcoin Ops Newsletter 2025‑06‑20](https://bitcoinops.org/en/newsletters/2025/06/20/#breez-sdk-adds-bolt12-and-bip353)
+- [**LDK** completa la implementacion de Attributable Failures agregando el report de HTLC hold times en pagos exitosos](https://github.com/lightningdevkit/rust-lightning/pull/3801)
+
+
+### Quantum
+- - [**Quantum Bitcoin Summit**: resumen técnico realista sobre riesgos y plazos para ataques cuánticos a ECDSA.](https://bitcoinmagazine.com/technical/the-quantum-bitcoin-summit-a-grounded-look-at-the-issues)  
+- [**Cointelegraph** explora escenarios de migración a firmas post‑cuánticas y la ventana de actualización recomendada.](https://cointelegraph.com/news/bitcoin-quantum-computing) 
+- [**Project Eleven** levanta **USD 6 M** para prototipos de firmas Winternitz + `OP_CAT`, buscando soluciones _opt‑in_ para usuarios en riesgo.](https://cointelegraph.com/news/project-eleven-raises-6m-to-defend-bitcoin-from-quantum-attacks)
+
+## Seguridad y Derechos
+- **Tornado Cash**: Las tacticas del fiscal son criticadas pero continua el juicio— [The Rage](https://www.therage.co/tornado-cash-mistrial/)  
+- México aprueba nuevas leyes de vigilancia y refuerza la **Ley Antilavado 2025** — [EY México](https://www.ey.com/es_mx/technical/tax/boletines-fiscales/reforma-ley-antilavado-2025-nuevas-obligaciones)  
+
+## Otros BitDevs
+- [BitDevs Guadalajara #13 (08 jul 2025)](https://bitdevs.btcgdl.com/2025-07-08-socratic-seminar-13)  
+- [BitDevs Austin #66 (17 jul 2025)](https://austinbitdevs.com/2025-07-17-socratic-seminar-66)  
+- [BitDevs San Francisco #60](https://sfbitcoindevs.org/socratic-60/)  
