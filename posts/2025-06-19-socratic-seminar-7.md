@@ -7,7 +7,6 @@ meetup: https://lu.ma/i6p0tpfz
 
 # Anuncios
 
--
 - Bienvenidos al **séptimo** seminario socrático oficial de **CDMX Bitcoin Devs** en la **Casa de Satoshi**. El anfitrión es [Gustavo Flores Echaiz](https://x.com/gustavojfe).  
 - Patrocinadores: [Wallet of Satoshi](https://www.walletofsatoshi.com/) y [Librería de Satoshi](https://libreriadesatoshi.com/).  
 - Respeten la integridad y la privacidad de los demás. Se aplican las reglas de [Chatham House](https://www.chathamhouse.org/about-us/chatham-house-rule).  
@@ -16,7 +15,7 @@ meetup: https://lu.ma/i6p0tpfz
 
 # Temas
 
-### Noticias de Mercado
+## Noticias de Mercado
 - **Bitcoin** alcanza un nuevo máximo histórico de **USD 123 000** — [Reuters](https://www.reuters.com/business/bitcoin-crosses-120000-record-high-2025-07-14/)  
 - Crece la adopción de Bitcoin en **Bolivia** y otros países con alta inflacion — [HRF Financial Freedom Report #79](https://hrf.org/latest/hrfs-weekly-financial-freedom-report-79/)  
 - **Deutsche Bank** planea lanzar servicio de custodia Bitcoin en 2026 — [Bloomberg](https://www.bloomberg.com/news/articles/2025-07-01/deutsche-bank-aims-to-launch-crypto-custody-service-in-2026)  
@@ -27,7 +26,7 @@ meetup: https://lu.ma/i6p0tpfz
 - **BBVA** lanza servicio minorista de trading y custodia de Bitcoin en España — [BBVA](https://www.bbva.com/en/es/innovation/bbva-launches-its-bitcoin-and-ether-trading-and-custody-service-for-all-retail-customers-in-spain/)  
 - Análisis de los **BTC** retenidos por el **U.S. Marshal Service** — [The Rage](https://www.therage.co/btc-held-by-the-us-marshal-service/)  
 
-### Productos y Lanzamientos
+## Productos y Lanzamientos
 - **Wallet of Satoshi** + **Spark**: experiencia Lightning autocustodia — [Bitcoin Magazine](https://bitcoinmagazine.com/news/wallet-of-satoshi-partners-with-spark-to-offer-self-custodial-bitcoin-lightning-experience)
 - **Bitcoin Core 28.2** — [Bitcoin Core](https://bitcoincore.org/es/releases/28.2/)  
 - **Core Lightning v25.05** — [Bitcoin Ops](https://bitcoinops.org/en/newsletters/2025/06/20/#core-lightning-25-05)  
@@ -38,7 +37,7 @@ meetup: https://lu.ma/i6p0tpfz
 - **Bitchat** peer‑to‑peer chat usando inscripciones 1‑sat para señalizar metadatos por Jack Dorsey — [Sitio Web](https://bitchat.free/)  
 
 
-### Desarrollo y Tecnología
+## Desarrollo y Tecnología
 - Carta abierta sobre **CTV** y **CSFS** firmado por mas de 70 desarolladores— [Bitcoin Ops 2025‑07‑04](https://bitcoinops.org/en/newsletters/2025/07/04/#open-letter-about-ctv-and-csfs)
 - **rust‑libsecp256k1** Completa la implementación de **MuSig2** — [Bitcoin Ops 2025‑06‑20](https://bitcoinops.org/en/newsletters/2025/06/20/#rust-libsecp256k1-798)  
 - Nuevo formato que reduce ~40 % el tamaño de carteras multifirma y miniscript en backups— [Bitcoin Ops 2025‑07‑11](https://bitcoinops.org/en/newsletters/2025/07/11/#compressed-descriptors)
@@ -50,7 +49,7 @@ meetup: https://lu.ma/i6p0tpfz
 - [**LDK** completa la implementacion de Attributable Failures agregando el report de HTLC hold times en pagos exitosos](https://github.com/lightningdevkit/rust-lightning/pull/3801)
 
 
-### Quantum
+## Quantum
 - - [**Quantum Bitcoin Summit**: resumen técnico realista sobre riesgos y plazos para ataques cuánticos a ECDSA.](https://bitcoinmagazine.com/technical/the-quantum-bitcoin-summit-a-grounded-look-at-the-issues)  
 - [**Cointelegraph** explora escenarios de migración a firmas post‑cuánticas y la ventana de actualización recomendada.](https://cointelegraph.com/news/bitcoin-quantum-computing) 
 - [**Project Eleven** levanta **USD 6 M** para prototipos de firmas Winternitz + `OP_CAT`, buscando soluciones _opt‑in_ para usuarios en riesgo.](https://cointelegraph.com/news/project-eleven-raises-6m-to-defend-bitcoin-from-quantum-attacks)
