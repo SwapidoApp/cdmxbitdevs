@@ -19,7 +19,7 @@ meetup: https://luma.com/alixoj8t
 - [El fundador de Tornado Cash es juzgado culpable de operar un transmisor de dinero que movió más de 1 B$ de fondos ilícitos](https://www.justice.gov/usao-sdny/pr/founder-tornado-cash-crypto-mixing-service-convicted-knowingly-transmitting-criminal)
 - [Google quita temporalmente el acceso al Play Store para wallets de auto custodia, pero lo soluciona después de presión de Bitcoiners en X](https://x.com/NewsFromGoogle/status/1955741506440192463)
 - [Nueva Zelanda prohíbe los ATMs Cripto en todo el país](https://cointelegraph.com/news/new-zealand-bans-crypto-atms-money-laundering)
-- [Kapitalex]
+- [Kapitalex rebrandea a ArcadiaB para convertirse en primera empresa en la bolsa de valores de México que tenga tesorería en bitcoin][https://www.arcadiab.com/]
 
 # La Minería de Bitcoin
 
@@ -60,8 +60,10 @@ meetup: https://luma.com/alixoj8t
 - [Eclair introduce los canales simples de taproot para mejorar la privacidad de las transacciones y reducir el espacio consumido por ellas en un 17%](https://bitcoinops.org/en/newsletters/2025/08/22/#eclair-3103)
 - [Lightspark anuncia integración con el banco digital SoFi (más de 20 M de clientes) para remesas entre EUA y México usando Lightning](https://www.lightspark.com/news/lightspark/sofi-lightspark-announcement)
   - [Por qué el bitcoin es mejor que los stablecoins para los pagos transfronterizos, página 50.](https://epochvc.io/pdf/The-Future-of-Banking-with-Bitcoin-2025.pdf)
+  - [Bitso tuvo su conferencia stablecoin ayer y hoy en la CDMX](https://www.stablecoinconferencelatam.com/)
 
 ## Capas 2 y Sidechains
+
 - [El sidechain Liquid agrega Simplicity](https://blog.blockstream.com/simplicity-launches-on-liquid-mainnet/)
     - [SimplicityHL es un lenguaje de programación similar a Rust que compila en Simplicity](https://bitcoinops.org/en/newsletters/2025/08/22/#simplicityhl-released)
 - [ArkadeOS es una extensión de la capa de nivel 2 ARK para crear programas inteligentes encima de Bitcoin](https://arkadeos.com/)
