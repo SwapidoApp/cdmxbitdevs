@@ -2,3 +2,8 @@
 .DS_Store?
 node_modules
 dist
+
+# foreign lockfiles — this is a bun repo (bun.lock is the source of truth)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
